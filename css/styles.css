@@ -1,0 +1,68 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(img/fiji.jpeg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: grey 0.3em 0.3em 0.3em;*/
+}
+
+.jumbotron1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  background-image: url(img/tx.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: blue;
+  text-shadow: lightblue 0.5em 0.5em 0.5em;*/
+}
+.jumbotron1 h1,
+.jumbotron1 .h1 {
+  color: inherit;
+}
+.jumbotron1 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron1 > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron1,
+.container-fluid .jumbotron1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotron1 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron1,
+  .container-fluid .jumbotron1 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron1 h1,
+  .jumbotron1 .h1 {
+    font-size: 63px;
+  }
+}
+
+
+h4{
+  color: blue;
+  font-family: fantasy;
+}
+body {
+  background-color: powderblue;
+}
